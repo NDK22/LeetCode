@@ -1,0 +1,12 @@
+
+We use a while loop instead of a for loop for reversing vowels in the word because the number of vowels in the word may not be known in advance, and the positions of vowels can vary. Using a while loop allows us to search for vowels and swap them until we've processed all the vowels in the word.
+
+Here's why we use a while loop in this context:
+
+Variable Vowel Count: The number of vowels in the word can vary, and we don't know the exact count in advance. Using a for loop with a fixed range would be challenging because we may not know the range beforehand. A while loop allows us to adjust the loop termination conditions based on the actual number of vowels found.
+
+Variable Vowel Positions: The positions of vowels within the word may not be evenly spaced. They can be scattered throughout the word, so it's not straightforward to determine their positions using a for loop with a fixed step.
+
+Skipping Non-Vowels: Within the loop, we need to skip non-vowel characters while searching for the next vowel. A while loop allows us to keep advancing the search pointers (left and right) until we find vowels.
+
+By using a while loop, we can iteratively search for and reverse vowels until we've processed all the vowels in the word, regardless of their positions and count.
