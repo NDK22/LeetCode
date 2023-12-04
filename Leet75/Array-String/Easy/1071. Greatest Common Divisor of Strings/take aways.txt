@@ -1,4 +1,4 @@
-n this code, the Euclidean algorithm is used to calculate the greatest common divisor (GCD) of the lengths of str1 and str2. Let's break down how it's applied:
+In this code, the Euclidean algorithm is used to calculate the greatest common divisor (GCD) of the lengths of str1 and str2. Let's break down how it's applied:
 
 Initialize with Lengths:
 
